@@ -526,6 +526,13 @@ html {
   top: 0;
   left: 0;
   width: 100%;
+  transition: 0.2s linear;
+  padding-bottom: 20px;
+  z-index: 999;
+}
+
+.header_active {
+  background: #0e1d28;
 }
 
 body {
@@ -963,5 +970,9 @@ img {
   opacity: 75%;
   background: #0e66da;
 }
+
+/*Top styles end */
+
+/*Top styles start */
 
 /*Top styles end */
